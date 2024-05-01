@@ -3,20 +3,20 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'What is chain abstration?',
+    message: 'What is chain abstration on NEAR?'
   },
   {
-    heading: 'Is the Apple Vision Pro worth buying?',
-    message: 'Is the Apple Vision Pro worth buying?'
+    heading: 'What are the latest projects on NEAR?',
+    message: 'What are the latest projects on NEAR?'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: 'Help me find resources and support for building on NEAR',
+    message: 'Help me find resources and support for building on NEAR'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Help me identify investors for my project on NEAR',
+    message: 'Help me identify investors for my project on NEAR'
   }
 ]
 export function EmptyScreen({

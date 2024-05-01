@@ -1,12 +1,6 @@
-# Morphic
+# NEAR AI Answer Engine
 
-An AI-powered search engine with a generative UI.
-
-![capture](/public/capture-240404_blk.png)
-
-### Note
-
-Please note that there are differences between this repository and the official website [morphic.sh](morphic.sh). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed. When using Morphic, please keep in mind the different roles of the repository and the website.
+An AI-powered answer engine designed specifically for developers and founders building on NEAR. This tool helps you discover open source repositories, stay updated with the latest NEAR documentation, and assists with debugging and optimizing your NEAR apps.
 
 ## 🔍 Overview
 
@@ -18,19 +12,16 @@ Please note that there are differences between this repository and the official 
 ### 🚗 Roadmap [WIP]
 
 - [x] Enable specifying the model to use (only writer agent)
-- [ ] Implement chat history functionality
-- [ ] Develop features for sharing results
-- [ ] Add video support for search functionality
-- [ ] Implement Retrieval-Augmented Generation (RAG) support
-- [ ] Introduce tool support for enhanced productivity
-- [ ] Expand Generative UI capabilities
+- [ ] Add video support for NEAR educational content
+- [ ] Implement Retrieval-Augmented Generation (RAG) for NEAR codebases
+- [ ] Expand Generative UI capabilities for NEAR developers
 
 ## 🧱 Stack
 
 - App framework: [Next.js](https://nextjs.org/)
 - Text streaming / Generative UI: [Vercel AI SDK](https://sdk.vercel.ai/docs)
 - Generative Model: [OpenAI](https://openai.com/)
-- Search API: [Tavily AI](https://tavily.com/)
+- NEAR API: [NEAR Protocol](https://near.org/)
 - Component library: [shadcn/ui](https://ui.shadcn.com/)
 - Headless component primitives: [Radix UI](https://www.radix-ui.com/)
 - Styling: [Tailwind CSS](https://tailwindcss.com/)
@@ -42,7 +33,7 @@ Please note that there are differences between this repository and the official 
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone https://github.com/jbarnes850/morphic.git
 ```
 
 ### 2. Install dependencies
@@ -117,3 +108,4 @@ List of verified models that can be specified to writers.
 - [Groq](https://console.groq.com/docs/models)
   - LLaMA3 8b
   - LLaMA3 70b
+

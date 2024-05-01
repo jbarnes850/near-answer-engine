@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://discord.gg/zRxaseCuGq" target="_blank">
+          <Link href="https://discord.gg/" target="_blank">
             <SiDiscord size={18} />
           </Link>
         </Button>
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://twitter.com/miiura" target="_blank">
+          <Link href="https://twitter.com/jarrodbarnes" target="_blank">
             <SiTwitter size={18} />
           </Link>
         </Button>
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://git.new/morphic" target="_blank">
+          <Link href="https://github.com/jbarnes850/near-answer-engine" target="_blank">
             <SiGithub size={18} />
           </Link>
         </Button>
